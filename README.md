@@ -3,7 +3,7 @@
 Week 1 Studio Onboarding project for WebWorks Studio.
 
 ## Developer
-YOUR NAME
+Ani Olivarez
 
 ## Role
 Junior Web Developer
