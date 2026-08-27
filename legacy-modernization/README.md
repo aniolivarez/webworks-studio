@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Southtown Plant Co. — Week 2 Inherited Client Site
 
 ## Scenario
@@ -29,3 +30,6 @@ Do not simply redesign the site from scratch. Refactor it according to the requi
 Make the code easier for another developer to understand, maintain, and extend.
 
 Refer to the Canvas assignment for all required technical work, GitHub workflow, and submission directions.
+=======
+
+>>>>>>> ce32da462d925b16cf0470eeab3b853c9cf8e032
