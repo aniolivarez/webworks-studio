@@ -7,78 +7,10 @@ body {
   margin-bottom: 18px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
+  background-color: #E8E1C9;
+  color: #333333;
 }
 
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.intro {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 23px;
-  color: #4C5148;
-}
-
-h2 {
-  font-family: Georgia, "Times New Roman", serif;
-  color: #315C3D;
-  font-size: 24px;
-  margin-bottom: 8px;
-}
-
-a {
-  color: #285B39;
-}
-
-a:hover {
-  color: #993300;
-}
-
-.navcell {
-  background-color: #315C3D;
-  height: 34px;
-}
-
-.navcell a {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #FFFFFF;
-  font-size: 11px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.navcell a:hover {
-  color: #FFF3B8;
-}
-
-.photo {
-  border: 1px solid #9E9475;
-}
-
-.footertext {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  color: #666666;
-}
-
-.footertext a {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
-}
-
-/* old notes
-.green { color: #315C3D; }
-*/
-
-td {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-}
-
-/* duplicate link rules from later update */
 a:link {
   color: #285B39;
 }
@@ -89,4 +21,225 @@ a:visited {
 
 a:active {
   color: #993300;
+}
+
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#container {
+  width: 760px;
+  background-color: #FFFFFF;
+  margin: auto;
+  border-top: 12px solid #315C3D;
+  border-bottom: 12px solid #315C3D;
+}
+
+#content {
+  padding: 0 20px 0 20px;
+}
+
+header {
+  width: 720px;
+}
+
+#headerimg {
+  width: 259px;
+  height: 90px;
+}
+
+.photo {
+  border: 1px solid #9E9475;
+}
+
+#headertxt {
+  text-align: right;
+}
+
+#headertxt p {
+  font-size: 13px;
+  line-height: 0;
+}
+
+#headernav {
+  width: 720px;
+}
+
+.navcell {
+  background-color: #315C3D;
+  height: 34px;
+  width: 120px;
+  text-align: center;
+  display: inline-block;
+}
+
+.navcell a {
+  background-color: #315C3D;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main {
+  margin-bottom: 16px;
+}
+
+#infobox {
+  margin-bottom: 16px;
+}
+
+#infotxt {
+  display: inline-block;
+  width: 390px;
+}
+
+#herotxt h1 {
+  font-family: Georgia, Times New Roman, serif;
+  color: #315C3D;
+}
+
+#intro {
+  font-size: 16px;
+  line-height: 23px;
+  color: #4C5148;
+}
+
+#specialtxt {
+  background-color: #F4EAC8;
+}
+
+#specialtxt p {
+  font-size: 13px;
+}
+
+#heroimg {
+  width: 300px;
+  height: 220px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.thickline {
+  height: 4px;
+  border: none;
+  background-color: #315C3D;
+}
+
+#plants {
+  margin-bottom: 32px;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #315C3D;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+#plantboxes {
+  font-size: 0px;
+  background-color: #F6F0DA;
+}
+
+.plantinfo {
+  padding: 10px;
+  width: 216.8px;
+  display: inline-block;
+  border: 2px solid #D5CCAE;
+}
+
+.plantname {
+  color: #315C3D;
+  font-weight: bold;
+  margin: 0;
+}
+
+.plantinfo p {
+  margin: 0;
+}
+
+.bestfor {
+  font-size: 13px;
+}
+
+#services {
+  margin-bottom: 32px;
+}
+
+#services nav {
+  width: 190px;
+  height: 430px;
+  background-color: #EFE7CE;
+  float: left;
+  margin-right: 16px;
+}
+
+#services nav p{
+  color: #315C3D;
+  margin-bottom: 16px;
+  padding: 8px 0 0 8px;
+}
+
+#services nav img {
+  padding-left: 8px;
+  width: 12px;
+  height: 12px;
+}
+
+#services nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#services nav li {
+  margin-bottom: 16px;
+}
+
+#ourservices img {
+  width: 170px;
+  height: 130px;
+  float: left;
+  margin-right: 8px;
+}
+
+#visit {
+  margin-top: 16px;
+  width: 720px;
+  background-color: #F4EAC8;
+}
+
+.visitinfo {
+  padding: 8px;
+  width: 340px;
+  display: inline-block;
+}
+
+.visitinfo p {
+  margin: 0;
+}
+
+.visitinfo b {
+  color: #315C3D;
+}
+
+footer {
+  width: 720px;
+  color: #666666;
+  font-size: 11px;
+  text-align: center;
+}
+
+footer nav {
+  margin-bottom: 16px;
+}
+
+#copyright p {
+  line-height: 0;
+  margin-bottom: 16px;
+  color: #666666;
+  font-size: 11px;
 }
