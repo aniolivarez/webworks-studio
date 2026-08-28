@@ -63,10 +63,6 @@ header {
   line-height: 0;
 }
 
-#headernav {
-  width: 720px;
-}
-
 .navcell {
   background-color: #315C3D;
   height: 34px;
@@ -82,6 +78,11 @@ header {
   font-weight: bold;
   text-decoration: none;
 }
+
+.navcell a:hover {
+  color: #FFF3B8;
+}
+
 
 main {
   margin-bottom: 16px;
