@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Southtown Plant Co. — Week 2 Inherited Client Site
 
 ## Scenario
@@ -6,30 +5,17 @@ WebWorks Studio has inherited this small-business website from a previous develo
 
 The site is functional, but the underlying front-end code reflects practices common in older websites. Your assignment is to modernize the code while preserving the client's content and general visual identity.
 
-## Before You Edit
-1. Keep an untouched copy of this starter project.
-2. Put your working copy in:
-   `webworks-studio/week02-build-better/`
-3. Open the entire project folder in Visual Studio Code.
-4. Preview `index.html` in a browser.
-5. Resize the browser window and observe the existing behavior before you change anything.
+## Week 2 Improvements
+1. Modernized HTMl structure for maintainability.
+2. Used semantic tags for accessibility.
+3. Reorganized CSS and moved all styling to stylesheet for maintainability.
+4. Added lang, alt text, and labels where needed for accessibility.
 
-## Important
-The inherited site is intentionally **not responsive**.
+## What I Intentionally Did Not Change
+I did not change fixed sizes, such as with px, and general lack of responsiveness that will be addressed in week 3.
 
-Do not simply redesign the site from scratch. Refactor it according to the requirements in the Week 2 Canvas assignment.
+## Next Sprint
+Will address element resizing, flow, and responsiveness in general. Temporary useage of inline-block to maintain layout in certain areas will be replaced for responsive alternatives.
 
-## Preserve
-- Client content
-- General color palette and visual identity
-- Working navigation and links
-- Meaningful image alternative text
-- Required site information
-
-## Your Goal
-Make the code easier for another developer to understand, maintain, and extend.
-
-Refer to the Canvas assignment for all required technical work, GitHub workflow, and submission directions.
-=======
-
->>>>>>> ce32da462d925b16cf0470eeab3b853c9cf8e032
+## Live Site
+[Github Pages URL](https://aniolivarez.github.io/webworks-studio/legacy-modernization/index.html)
