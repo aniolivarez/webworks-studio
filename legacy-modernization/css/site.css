@@ -3,10 +3,7 @@
 */
 
 body {
-  margin-top: 18px;
-  margin-bottom: 18px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
   background-color: #E8E1C9;
   color: #333333;
 }
@@ -25,29 +22,12 @@ a:active {
 
 p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
 }
 
 #container {
-  width: 760px;
   background-color: #FFFFFF;
-  margin: auto;
   border-top: 12px solid #315C3D;
   border-bottom: 12px solid #315C3D;
-}
-
-#content {
-  padding: 0 20px 0 20px;
-}
-
-header {
-  width: 720px;
-}
-
-#headerimg {
-  width: 259px;
-  height: 90px;
 }
 
 .photo {
@@ -59,14 +39,11 @@ header {
 }
 
 #headertxt p {
-  font-size: 13px;
   line-height: 0;
 }
 
 .navcell {
   background-color: #315C3D;
-  height: 34px;
-  width: 120px;
   text-align: center;
   display: inline-block;
 }
@@ -74,7 +51,6 @@ header {
 .navcell a {
   background-color: #315C3D;
   color: white;
-  font-size: 11px;
   font-weight: bold;
   text-decoration: none;
 }
@@ -83,18 +59,8 @@ header {
   color: #FFF3B8;
 }
 
-
-main {
-  margin-bottom: 16px;
-}
-
-#infobox {
-  margin-bottom: 16px;
-}
-
 #infotxt {
   display: inline-block;
-  width: 390px;
 }
 
 #herotxt h1 {
@@ -103,8 +69,6 @@ main {
 }
 
 #intro {
-  font-size: 16px;
-  line-height: 23px;
   color: #4C5148;
 }
 
@@ -112,15 +76,8 @@ main {
   background-color: #F4EAC8;
 }
 
-#specialtxt p {
-  font-size: 13px;
-}
-
-#heroimg {
-  width: 300px;
-  height: 220px;
+#heroimg { 
   display: inline-block;
-  margin-left: 20px;
 }
 
 .thickline {
@@ -129,25 +86,17 @@ main {
   background-color: #315C3D;
 }
 
-#plants {
-  margin-bottom: 32px;
-}
-
 h2 {
   font-family: Georgia, "Times New Roman", serif;
   color: #315C3D;
-  font-size: 24px;
-  margin-bottom: 8px;
 }
 
 #plantboxes {
-  font-size: 0px;
+  font-size: 0;
   background-color: #F6F0DA;
 }
 
 .plantinfo {
-  padding: 10px;
-  width: 216.8px;
   display: inline-block;
   border: 2px solid #D5CCAE;
 }
@@ -162,32 +111,14 @@ h2 {
   margin: 0;
 }
 
-.bestfor {
-  font-size: 13px;
-}
-
-#services {
-  margin-bottom: 32px;
-}
-
 #services nav {
-  width: 190px;
-  height: 430px;
   background-color: #EFE7CE;
   float: left;
-  margin-right: 16px;
 }
 
 #services nav p{
   color: #315C3D;
-  margin-bottom: 16px;
   padding: 8px 0 0 8px;
-}
-
-#services nav img {
-  padding-left: 8px;
-  width: 12px;
-  height: 12px;
 }
 
 #services nav ul {
@@ -195,26 +126,15 @@ h2 {
   padding: 0;
 }
 
-#services nav li {
-  margin-bottom: 16px;
-}
-
 #ourservices img {
-  width: 170px;
-  height: 130px;
   float: left;
-  margin-right: 8px;
 }
 
 #visit {
-  margin-top: 16px;
-  width: 720px;
   background-color: #F4EAC8;
 }
 
 .visitinfo {
-  padding: 8px;
-  width: 340px;
   display: inline-block;
 }
 
@@ -227,19 +147,11 @@ h2 {
 }
 
 footer {
-  width: 720px;
   color: #666666;
-  font-size: 11px;
   text-align: center;
-}
-
-footer nav {
-  margin-bottom: 16px;
 }
 
 #copyright p {
   line-height: 0;
-  margin-bottom: 16px;
   color: #666666;
-  font-size: 11px;
 }
