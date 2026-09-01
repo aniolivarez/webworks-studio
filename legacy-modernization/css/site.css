@@ -45,7 +45,6 @@ p {
 .navcell {
   background-color: #315C3D;
   text-align: center;
-  display: inline-block;
 }
 
 .navcell a {
@@ -59,10 +58,6 @@ p {
   color: #FFF3B8;
 }
 
-#infotxt {
-  display: inline-block;
-}
-
 #herotxt h1 {
   font-family: Georgia, Times New Roman, serif;
   color: #315C3D;
@@ -74,10 +69,6 @@ p {
 
 #specialtxt {
   background-color: #F4EAC8;
-}
-
-#heroimg { 
-  display: inline-block;
 }
 
 .thickline {
@@ -97,7 +88,6 @@ h2 {
 }
 
 .plantinfo {
-  display: inline-block;
   border: 2px solid #D5CCAE;
 }
 
@@ -113,7 +103,6 @@ h2 {
 
 #services nav {
   background-color: #EFE7CE;
-  float: left;
 }
 
 #services nav p{
@@ -126,16 +115,8 @@ h2 {
   padding: 0;
 }
 
-#ourservices img {
-  float: left;
-}
-
 #visit {
   background-color: #F4EAC8;
-}
-
-.visitinfo {
-  display: inline-block;
 }
 
 .visitinfo p {
