@@ -5,17 +5,19 @@ WebWorks Studio has inherited this small-business website from a previous develo
 
 The site is functional, but the underlying front-end code reflects practices common in older websites. Your assignment is to modernize the code while preserving the client's content and general visual identity.
 
-## Week 2 Improvements
-1. Modernized HTMl structure for maintainability.
-2. Used semantic tags for accessibility.
-3. Reorganized CSS and moved all styling to stylesheet for maintainability.
-4. Added lang, alt text, and labels where needed for accessibility.
+## Week 3 Improvements (Problem, solution, why)
+1. Fixed-width sizing (px) was replaced with rem and percentages for responsiveness.
+2. Inline-block and float was replaced with flexbox and grid for easier styling and responsiveness.
+3. Multiple elements in a single row were given wrapping with CSS to prevent content getting squeezed too small.
 
-## What I Intentionally Did Not Change
-I did not change fixed sizes, such as with px, and general lack of responsiveness that will be addressed in week 3.
+## Grid Use
+Grid was used in the about section to allow for styling elements next to each other in columns and above in a row.
 
-## Next Sprint
-Will address element resizing, flow, and responsiveness in general. Temporary useage of inline-block to maintain layout in certain areas will be replaced for responsive alternatives.
+## Flexbox
+Flexbox was used in most sections that allowed for a linear layout, such as navs and plant info cards.
 
 ## Live Site
 [Github Pages URL](https://aniolivarez.github.io/webworks-studio/legacy-modernization/index.html)
+
+## Last Update
+Last updated 9/1/2026 by Ani Olivarez from Webworks Studio.
