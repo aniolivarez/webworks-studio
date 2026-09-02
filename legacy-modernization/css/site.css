@@ -118,6 +118,8 @@ header {
 
 #heroimg {
   border: 1px solid #9E9475;
+  flex: 1 1 18.75rem;
+  height: auto;
 }
 
 .thickline {
