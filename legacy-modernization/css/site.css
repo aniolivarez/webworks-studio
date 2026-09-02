@@ -25,29 +25,54 @@ p {
 }
 
 #container {
+  width: 98%;
+  max-width: 47.5rem;
+  margin-inline: auto;
   background-color: #FFFFFF;
   border-top: 12px solid #315C3D;
   border-bottom: 12px solid #315C3D;
 }
 
-.photo {
-  border: 1px solid #9E9475;
+#content {
+  padding: 0 1.25rem 0 1.25rem;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 32%;
 }
 
 #headertxt {
   text-align: right;
+
 }
 
 #headertxt p {
   line-height: 0;
+  font-size: 0.813rem;
+}
+
+#headernav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 0.06rem;
 }
 
 .navcell {
+  flex: 1 1 7.4rem;
+  height: 2.2rem;
   background-color: #315C3D;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navcell a {
+  font-size: 0.688rem;
   background-color: #315C3D;
   color: white;
   font-weight: bold;
@@ -56,6 +81,18 @@ p {
 
 .navcell a:hover {
   color: #FFF3B8;
+}
+
+#infobox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#infotxt {
+  flex: 1 1 24.375rem;
 }
 
 #herotxt h1 {
@@ -69,6 +106,18 @@ p {
 
 #specialtxt {
   background-color: #F4EAC8;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  padding: 0.313rem;
+}
+
+#specialtxt p {
+  font-size: 0.813rem;
+}
+
+#heroimg {
+  border: 1px solid #9E9475;
 }
 
 .thickline {
@@ -83,11 +132,15 @@ h2 {
 }
 
 #plantboxes {
-  font-size: 0;
   background-color: #F6F0DA;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
 
 .plantinfo {
+  flex: 1 1 13.5rem;
+  padding: 0.625rem;
   border: 2px solid #D5CCAE;
 }
 
@@ -101,13 +154,31 @@ h2 {
   margin: 0;
 }
 
+.bestfor {
+  font-size: 0.813rem;
+}
+
+#services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
 #services nav {
   background-color: #EFE7CE;
+  flex: 1 1 20%;
+  min-width: 11.875rem;
 }
 
 #services nav p{
   color: #315C3D;
   padding: 8px 0 0 8px;
+  margin-bottom: 1rem;
+}
+
+#services nav img {
+  padding-left: 0.5rem;
 }
 
 #services nav ul {
@@ -115,8 +186,41 @@ h2 {
   padding: 0;
 }
 
+#services nav li {
+  margin-bottom: 1rem;
+}
+
+#ourservices {
+  flex: 1 1 70%;
+}
+
+#about {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  column-gap: 1rem;
+  align-items: center;
+}
+
+#about h2 {
+  grid-column: span 2;
+}
+
+#about img {
+  max-width: 10rem;
+}
+
 #visit {
   background-color: #F4EAC8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.visitinfo {
+  flex: 1 1 21.25rem;
+  padding: 0.5rem;
 }
 
 .visitinfo p {
@@ -128,6 +232,7 @@ h2 {
 }
 
 footer {
+  font-size: 0.688rem;
   color: #666666;
   text-align: center;
 }
