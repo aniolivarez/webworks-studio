@@ -35,21 +35,24 @@ Use Tailwind utilities to translate the supplied visual direction into a polishe
 Before submitting, replace the placeholders below with approximately three examples.
 
 ### Decision 1
-**Used:**  
-**Why:**  
+**Used: Breakpoints such as lg:**  
+**Why: Allowed me to change the styling at certain screen sizes, good for responsiveness**  
 
 ### Decision 2
-**Used:**  
-**Why:**  
+**Used: Sizing with w-{size}**  
+**Why: Allowed me to size elements simply and quickly. Using fraction sizing was also helpful for having items on one line take up specific amounts of space while being responsive**  
 
 ### Decision 3
-**Used:**  
-**Why:**  
+**Used: hover: state**  
+**Why: Allowed me to replicate the hover appearance of the buttons provided on the design reference**  
 
 ## Live Site
-Add your published GitHub Pages URL here.
+[Github Pages URL](https://aniolivarez.github.io/webworks-studio/week04-tailwind/)
 
 ## Reminder
 The Tailwind Play CDN is being used for this instructional sprint only. It is intended for development, not production deployment workflows.
 
 Refer to the Week 4 Canvas assignment for all requirements and submission directions.
+
+## Last Update
+Last updated 9/13/2026 by Ani Olivarez from Webworks Studio.
