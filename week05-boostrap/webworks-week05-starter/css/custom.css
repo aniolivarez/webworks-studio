@@ -26,3 +26,45 @@
   If you find yourself writing large overrides or repeated !important
   declarations, reconsider your Bootstrap structure/classes first.
 */
+
+:root {
+  --bs-secondary-color: #995d3d;
+}
+
+body {
+  color: #203c35;
+  background-color: #fbfaf7;
+}
+
+header {
+  background-color: #203c35;
+}
+
+header li:hover {
+  background-color: #995d3d;
+}
+
+#hero {
+  background-color: #f5f0e7;
+}
+
+.btn {
+  background-color: #203c35;
+  color: white;
+}
+
+.cards {
+  background-color: white;
+}
+
+#process {
+  background-color: #e8efeb;
+}
+
+#contact {
+  background-color: #f5f0e7;
+}
+
+footer {
+  background-color: #203c35;
+}
