@@ -58,8 +58,8 @@ Translate your **top three Week 6 priorities** into exactly three interface requ
 
 Describe the user task your prototype demonstrates.
 
-**Starting point:** Hovering over beginner friendly category, indicated as clickable by the change in appearance
-**User action:** Clicking on beginner friendly category
+**Starting point:** Focusing/hovering on beginner friendly category, indicated as selectable by the change in appearance
+**User action:** Selecting beginner friendly category
 **System/interface response:** Reordering category buttons to indicate which one is being used, and hiding trail cards that are not labeled with the chosen category
 **End state:** Showing only the trail card that is labeled as beginner friendly
 
