@@ -19,3 +19,21 @@ difficultyButton.addEventListener("click", () => {
 // ======================================================
 // PART 2 — HIKE PLANNING FORM
 // ======================================================
+
+const trailForm = document.querySelector("#hike-form");
+
+const trailFeedback = document.querySelector("#form-feedback");
+
+trailForm.addEventListener("submit", (event) => {
+  if (!trailForm.checkValidity()) {
+    return;
+  }
+
+  event.preventDefault();
+
+  const trailChoice = document.querySelector("#trail").value;
+  const experienceChoice = document.querySelector("#experience").value;
+  const hoursChoice = document.querySelector("#hours").value;
+
+  trailFeedback.textContent = `Plan ready for ${trailChoice} trail with ${experienceChoice.toLowerCase()} hiker for ${hoursChoice} hours.`;
+});
