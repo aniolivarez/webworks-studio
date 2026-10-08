@@ -24,7 +24,7 @@ For the form portion of the assignment, my script first selected the form and fe
 
 What events did you listen for? Why were those events appropriate?
 
-The events I listened for were click and submit. Click was appropriate for the difficulty panel, as it allowed the button to toggle the panel open and closed. Submit was appropriate for the form as it allowed the script to run once the submition button was activated.
+The events I listened for were click and submit. Click was appropriate for the difficulty panel, as it allowed the button to toggle the panel open and closed. Submit was appropriate for the form as it allowed the script to run once the submission button was activated.
 
 ### Decision 3 — State / DOM Update
 
