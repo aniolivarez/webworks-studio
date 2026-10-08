@@ -60,4 +60,8 @@ I preserved accessibility by using event listeners that respond to keyboard inpu
 
 ## Live Site
 
-[Add GitHub Pages URL here.]
+[Live Github URL](https://aniolivarez.github.io/webworks-studio/week08-javascript/index.html)
+
+## Last Update
+
+Last updated 10/8/2026 by Ani Olivarez from Webworks Studio.
