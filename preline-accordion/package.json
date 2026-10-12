@@ -1,7 +1,7 @@
 {
   "name": "preline-accordion",
   "version": "1.0.0",
-  "description": "",
+  "description": "[Github Pages URL](https://aniolivarez.github.io/webworks-studio/preline-accordion/index.html)",
   "main": "index.js",
   "scripts": {
     "dev": "tailwindcss -i ./css/input.css -o ./css/output.css --watch"
