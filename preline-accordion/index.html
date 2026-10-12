@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Title</title>
+    <link rel="stylesheet" href="css/output.css" />
+  </head>
+
+  <body>
+    <div
+      class="hs-accordion-group max-w-lg rounded-lg border border-gray-200 bg-gray-100 px-8 shadow-md mx-auto my-10"
+    >
+      <div
+        class="hs-accordion active border-b border-gray-200 last:border-b-0"
+        id="accordion-heading-one"
+      >
+        <button
+          class="hs-accordion-toggle flex w-full items-center justify-between px-5 py-4 text-left text-lg font-bold text-gray-800 transition hover:bg-blue-100 hover:text-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-800 focus:bg-blue-100 focus:text-blue-800"
+          aria-expanded="true"
+          aria-controls="accordion-content-one"
+        >
+          This is an accordion
+
+          <span class="text-xl">+</span>
+        </button>
+
+        <div
+          id="accordion-content-one"
+          class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
+          role="region"
+          aria-labelledby="accordion-heading-one"
+        >
+          <p class="px-5 pb-5 text-gray-600">
+            Clicking on the headings will make the sections open and close.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="hs-accordion border-b border-gray-200 last:border-b-0"
+        id="accordion-heading-two"
+      >
+        <button
+          class="hs-accordion-toggle flex w-full items-center justify-between px-5 py-4 text-left text-lg font-bold text-gray-800 transition hover:bg-blue-100 hover:text-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-800 focus:bg-blue-100 focus:text-blue-800"
+          aria-expanded="false"
+          aria-controls="accordion-content-two"
+        >
+          Made with Preline UI
+
+          <span class="text-xl">+</span>
+        </button>
+
+        <div
+          id="accordion-content-two"
+          class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+          role="region"
+          aria-labelledby="accordion-heading-two"
+        >
+          <p class="px-5 pb-5 text-gray-600">
+            "Preline UI is an open-source Tailwind CSS UI component library for
+            building modern websites and apps. It includes UI blocks, templates,
+            plugins, a Figma design system, and more. "
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="hs-accordion border-b border-gray-200 last:border-b-0"
+        id="accordion-heading-three"
+      >
+        <button
+          class="hs-accordion-toggle flex w-full items-center justify-between px-5 py-4 text-left text-lg font-bold text-gray-800 transition hover:bg-blue-100 hover:text-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-800 focus:bg-blue-100 focus:text-blue-800"
+          aria-expanded="false"
+          aria-controls="accordion-content-three"
+        >
+          Can I customize a Preline component?
+
+          <span class="text-xl">+</span>
+        </button>
+
+        <div
+          id="accordion-content-three"
+          class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
+          role="region"
+          aria-labelledby="accordion-heading-three"
+        >
+          <p class="px-5 pb-5 text-gray-600">
+            Yes. Preline provides the component structure and behavior, while
+            Tailwind utilities let you adapt the appearance to fit your project.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="./node_modules/preline/dist/preline.js"></script>
+  </body>
+</html>
