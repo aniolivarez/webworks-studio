@@ -11,6 +11,11 @@ Content was customized without making it harder to maintain by using reusable pa
 
 ---
 
+## WordPress Site Access
+
+**Site URL:**  
+[Site Url](https://susane39.sg-host.com/)
+
 # Customization Decisions
 
 Document the four required decisions below.
